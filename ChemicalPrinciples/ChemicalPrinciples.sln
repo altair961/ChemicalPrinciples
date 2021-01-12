@@ -3,21 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChemicalPrinciples.Graphics3dEngine.Tests", "ChemicalPrinciples.Graphics3dEngine.Tests\ChemicalPrinciples.Graphics3dEngine.Tests.vcxproj", "{57CAEA1C-ECA9-454E-B801-73F25B4B5197}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DllProjectReferencingWalkthrough", "DllProjectReferencingWalkthrough", "{171271AD-F9F8-45B5-88B6-0A423ED7D15F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "MathLibrary\MathLibrary.vcxproj", "{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathClient", "MathClient\MathClient.vcxproj", "{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57CAEA1C-ECA9-454E-B801-73F25B4B5197}.Debug|x64.ActiveCfg = Debug|x64
-		{57CAEA1C-ECA9-454E-B801-73F25B4B5197}.Debug|x64.Build.0 = Debug|x64
-		{57CAEA1C-ECA9-454E-B801-73F25B4B5197}.Release|x64.ActiveCfg = Release|x64
-		{57CAEA1C-ECA9-454E-B801-73F25B4B5197}.Release|x64.Build.0 = Release|x64
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Debug|x64.ActiveCfg = Debug|x64
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Debug|x64.Build.0 = Debug|x64
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Debug|x86.ActiveCfg = Debug|Win32
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Debug|x86.Build.0 = Debug|Win32
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Release|x64.ActiveCfg = Debug|x64
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Release|x64.Build.0 = Debug|x64
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Release|x86.ActiveCfg = Release|Win32
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60}.Release|x86.Build.0 = Release|Win32
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Debug|x64.ActiveCfg = Debug|x64
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Debug|x64.Build.0 = Debug|x64
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Debug|x86.Build.0 = Debug|Win32
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Release|x64.ActiveCfg = Debug|x64
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Release|x64.Build.0 = Debug|x64
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Release|x86.ActiveCfg = Release|Win32
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EA16831-7BC1-4D69-AA8D-6AF331AC8A60} = {171271AD-F9F8-45B5-88B6-0A423ED7D15F}
+		{8BBB76F3-1403-4840-8808-D3D5AE1E31F5} = {171271AD-F9F8-45B5-88B6-0A423ED7D15F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96CACF69-36B0-4EB8-B2BC-A3D1D2A44C92}
