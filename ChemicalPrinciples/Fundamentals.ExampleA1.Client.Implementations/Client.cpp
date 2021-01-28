@@ -1,4 +1,4 @@
-﻿#define OLC_PGE_APPLICATION
+#define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
 
 class Example : public olc::PixelGameEngine
@@ -13,11 +13,16 @@ public:
 	bool OnUserCreate() override
 	{
 		// Called once at the start, so create things here
+	//	Panel panel;
+
 		return true;
 	}
 
 	bool OnUserUpdate(float fElapsedTime) override
 	{
+		// called once per frame
+
+	//	panel.Draw();
 		//void DrawString(int32_t x, int32_t y, const std::string & sText, Pixel col = olc::WHITE, uint32_t scale = 1);
 		//DrawString(20, 20, "Hello");
 		DrawRect(50, 50, 25, 6);
@@ -25,7 +30,6 @@ public:
 		if (GetKey(olc::Key::K1).bPressed)
 			DrawString(20, 20, "1");
 
-		// called once per frame
 		//for (int x = 0; x < ScreenWidth(); x++)
 		//	for (int y = 0; y < ScreenHeight(); y++)
 		//		Draw(x, y, olc::Pixel(rand() % 255, rand() % 255, rand() % 255));
