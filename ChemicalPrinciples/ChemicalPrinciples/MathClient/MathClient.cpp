@@ -5,6 +5,8 @@
 
 int main()
 {
+    Panel p;
+   
     // Initialize a Fibonacci relation sequence.
     fibonacci_init(1, 1);
     // Write out the sequence values until overflow.
