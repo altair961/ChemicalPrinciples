@@ -56,7 +56,7 @@ unsigned fibonacci_index()
 
 
 // This is the constructor of a class that has been exported.
-// see DynamicLib.h for the class definition
+// see MathLibrary.h for the class definition
 Panel::Panel()
 {
     width = 1024;
